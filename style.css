@@ -65,3 +65,20 @@
 .step:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .step {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .step:last-child {
+    margin: 0 auto;
+  }
+
+}
